@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata:wght@400;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+
+    <title>Gerador de senhas</title>
+</head>
+<body>
+    <main>
+        <section class="topo">
+    <h1 class="titulo">Gerador de senhas</h1>
+    <p class="subTitulo">Utilize nosso site para criar uma senha forte e segura</p>
+        </section>
+
+        <section class="box">
+            <div class="passwor">
+
+                <div class="tex">
+                    <input type="text" name="password" id="password">
+                </div>
+                <div class="actions">
+                    <button id="Copiar-2"><img src="copy.svg" alt="imagem copiar"></button>
+                    <button id="reload"><img src="reload.svg" alt="imagem reload"></button>
+                </div>
+            </div>
+            <div class="security-bar">
+                <div class="bar safe" id="security" style="width: 90%;"></div>
+            </div>
+
+        </section>
+   
+
+    <input type="range" name="password-length" id="password-length" value="16" min="4" max="64">
+    <button id="Copiar-1" >Copiar senha</button>
+
+</main>
+<script src="script.js"></script>
+</body>
+</html>
